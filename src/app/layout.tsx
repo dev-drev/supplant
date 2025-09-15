@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Supplant Band",
   description:
     "Supplant Band is a Berlin-based band blending Alternative Rock, Stoner, and Shoegaze.",
+  icons: {
+    icon: "/pic.png",
+  },
 };
 
 export default function RootLayout({
