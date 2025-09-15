@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SYNTHWAVE Band Website
+
+A modern, responsive single-page website for the SYNTHWAVE electronic music band. Built with Next.js 15, TypeScript, and Tailwind CSS.
+
+## Features
+
+- 🎵 **Interactive Playlist** - Clickable music player with track selection
+- 🎨 **Cyberpunk Design** - Neon gradients, glass morphism, and animated elements
+- 📱 **Fully Responsive** - Optimized for desktop, tablet, and mobile devices
+- ⚡ **Modern Tech Stack** - Next.js 15, TypeScript, Tailwind CSS
+- 🎭 **Band Information** - Member profiles, band description, and contact details
+- ✨ **Smooth Animations** - Floating elements, glowing effects, and hover animations
+
+## Design Elements
+
+- **Color Scheme**: Purple, pink, and cyan gradients with dark backgrounds
+- **Typography**: Modern sans-serif fonts with gradient text effects
+- **Layout**: Two-column responsive grid (band info + playlist)
+- **Interactions**: Hover effects, clickable playlist, smooth scrolling
+- **Visual Effects**: Glass morphism, neon glows, floating animations
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## Customization
+
+### Band Information
+Edit the following in `src/app/page.tsx`:
+- Band name and description
+- Member names and roles
+- Contact information
+- Social media links
+
+### Playlist
+Update the `playlist` array in `src/app/page.tsx`:
+```typescript
+const playlist = [
+  { title: "Your Song Title", duration: "3:45", year: "2024" },
+  // Add more tracks...
+];
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Styling
+Modify `src/app/globals.css` for:
+- Color schemes
+- Animations
+- Custom fonts
+- Additional effects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Images
+Replace placeholder images in `public/images/`:
+- `band-hero.svg` - Main hero image
+- Add member photos
+- Album artwork
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Heroicons (SVG)
+- **Animations**: CSS keyframes and Tailwind utilities
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deploy easily on Vercel:
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Or use the Vercel CLI:
+```bash
+npx vercel
+```
 
-## Deploy on Vercel
+## Browser Support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+MIT License - feel free to use this template for your own band or music project!
