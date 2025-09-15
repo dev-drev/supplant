@@ -20,14 +20,11 @@ export default function Home() {
   ];
 
   const playlist = [
-    { title: "Industrial Echoes", duration: "4:32", year: "2024" },
-    { title: "Stoner's Lament", duration: "5:18", year: "2024" },
-    { title: "Shoegaze Dreams", duration: "3:45", year: "2023" },
-    { title: "Berlin Nights", duration: "4:12", year: "2023" },
-    { title: "Velvet May", duration: "3:56", year: "2023" },
-    { title: "Incendie", duration: "4:28", year: "2022" },
-    { title: "Balthazar's Beat", duration: "3:41", year: "2022" },
-    { title: "Post-Metal Waves", duration: "5:15", year: "2022" },
+    { title: "The Road", duration: "4:32", year: "2024" },
+    { title: "Patterns of Denial", duration: "5:18", year: "2024" },
+    { title: "Too Low", duration: "3:45", year: "2023" },
+    { title: "No Burden Left to Hold", duration: "4:12", year: "2023" },
+    { title: "I'm Afraid", duration: "3:56", year: "2023" },
   ];
 
   const nextImage = () => {
